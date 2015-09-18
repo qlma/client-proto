@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* QLMA Koulu styles */
+
+
+
+
+.color1 {
+    background-color:#20bba6;
+}
+
+
+.full {
+    width: 100%;
+}
+
+
+.topslide a {
+    color:#FFF;
+}
+
+.topslide {
+    min-height:55px;
+    padding-top: 17px;
+    color:#FFF;
+}
+.logo {
+    width:250px;
+    display:block;
+    float:left;
+    background-color:#FFFFFF;
+    height: 55px;
+    margin-top: -17px;
+}
+.date {
+    width:250px;
+    display:block;
+    float:left;
+}
+.name {
+    width:550px;
+    display:block;
+    float:right;
+}
+
+
+.text-primary {
+    color: #70d4c6
+}
+
+
+
+
+@media only screen and (max-width: 60em) {
+
+.logo {
+    width:250px;
+}
+.date {
+    width:0px;
+}
+.name {
+    width:200px;
+
+}
+
+ }
+ 
+ 
+#disqus_thread {
+    padding-left: 260px;
+    padding-right: 18px;
+}
+.topslide {
+    position: fixed;
+    z-index: 99;
+}
+
+#wrapper {
+    padding-top: 54px;
+}

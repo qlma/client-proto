@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+
+        <link href="css/login.css" rel="stylesheet">
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+    </head>
+    <body>
+        <div id="login-container" class="login-container-background">
+            <img id="logo" src="img/qlma.png" width="150">
+            <div id="form-area" class="login-shadow">
+                <form action="frontpage.html">
+                    <span class="form-text">KÄYTTÄJÄTUNNUS</span><br>
+                    <input class="form-input" value="Matti Meikäläinen" type="text" />
+                    <span class="form-text">SALASANA</span><br>
+                    <input class="form-input" value="******" type="password" />
+                    <input class="form-button" type="submit" value="KIRJAUDU">
+                    <a href="#" id="unohtuiko-text">UNOHTUIKO SALASANA?</a>
+                </form>
+            </div>
+
+            <div id="school-text">
+                <span>Sylvään koulu, Sastamala</span>
+            </div>
+
+            <!--<div id="change-school">
+                <a href="#">VAIHDA KOULUA</a>
+                </div>-->
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

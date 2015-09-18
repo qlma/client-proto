@@ -1,0 +1,6 @@
+# Site settings
+title: QLMA Koulu
+baseurl: "/client" # the subpath of your site, e.g. /blog/
+url: "http://www.qlma.fi" # the base hostname & protocol for your site
+
+markdown: kramdown
