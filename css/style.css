@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* QLMA Koulu styles */
-
-
-
-
 .color1 {
     background-color:#20bba6;
 }
@@ -52,20 +48,21 @@
 
 @media only screen and (max-width: 60em) {
 
-.logo {
-    width:250px;
-}
-.date {
-    width:0px;
-}
-.name {
-    width:200px;
+    .logo {
+        width:250px;
+    }
+    .date {
+        width:0px;
+    }
+    .name {
+        width:200px;
 
+    }
+    .hide_disqus {
+        display: none;
+    }
 }
 
- }
- 
- 
 #disqus_thread {
     padding-left: 260px;
     padding-right: 18px;
@@ -78,3 +75,9 @@
 #wrapper {
     padding-top: 54px;
 }
+
+#menu-toggle {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
