@@ -1,6 +1,15 @@
 @charset "UTF-8";
 /* QLMA Koulu styles */
 
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .color1 {
     background-color:#20bba6;
 }
