@@ -88,6 +88,9 @@ p {
 	background-color: #b5b5b5;
 	color: #FFFFFF;
 }
+.submenu a {
+	color: #FFFFFF;
+}
 
 .submenu span {
 	background-color: #20bba6;
