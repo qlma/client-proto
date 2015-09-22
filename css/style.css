@@ -62,7 +62,6 @@ p {
     float:left;
 }
 .name {
-    width:550px;
     display:block;
     float:right;
 }
@@ -124,10 +123,6 @@ p {
     }
     .date {
         width:0px;
-    }
-    .name {
-        width:200px;
-
     }
     .hide_disqus {
         display: none;
