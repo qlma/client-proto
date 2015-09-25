@@ -147,3 +147,28 @@ p {
     font-size: 20px;
 }
 
+
+
+.message-row {
+	display: block;
+	color: inherit;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.message-row:hover {
+	text-decoration: none;
+	background-color: #F0F0F0;
+}
+
+
+.message-caption {
+	font-size: 1.2em;
+}
+
+.message-right {
+	float: right;
+	clear: both;
+}
+
