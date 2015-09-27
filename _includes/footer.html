@@ -21,6 +21,11 @@
                 e.preventDefault();
                 $("#wrapper").toggleClass("toggled");
             });
+            
+            /* Click on page --> close the menu */
+            $("#overlay").click(function(e) {
+				$("#wrapper").removeClass("toggled");
+			});
         </script>
         <script>
             (function(h,o,t,j,a,r){
